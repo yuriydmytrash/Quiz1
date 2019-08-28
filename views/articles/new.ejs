@@ -1,0 +1,20 @@
+<%-include('../partials/header')%>
+<title>New Cluck</title>
+
+<section>
+    <div class="form-container border mt-4 mx-2 p-2">
+        <form action="/clucks" method="POST">
+            <div class="form-group">
+                <label for="newTextarea1">Content</label>
+                <textarea name="content" class="form-control" id="newTextarea1" rows="3"
+                    placeholder="Tell me..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="httplink">Picture URL address</label>
+                <input type="text" name="imgURL" class="form-control" id="httplink" placeholder="https://">
+            </div>
+            <input type="submit" class="btn btn-light border" value="Cluck">
+        </form>
+    </div>
+</section>
+<%-include('../partials/footer')%>
