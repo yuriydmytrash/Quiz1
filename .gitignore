@@ -4,14 +4,6 @@
 
 ### Linux ###
 *~
-/db
-/public
-/routes
-/views
-app.js 
-knexfile.js 
-package.json 
-package-lock.json 
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
